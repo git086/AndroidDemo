@@ -67,7 +67,7 @@ public class MapActivity extends Activity {
      * 定位方法
      */
     private void Localtion(){
-        // 开启定位图层
+        //开启定位图层
         mBaiduMap.setMyLocationEnabled(true);
 
         mCurrentMode = MyLocationConfiguration.LocationMode.FOLLOWING;
